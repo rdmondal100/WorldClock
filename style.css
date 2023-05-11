@@ -1,0 +1,59 @@
+#inputTimezone{
+    position: relative;
+    width: 30vw!important;
+    background-color: rgb(172, 150, 150)!important;
+    
+}
+#centerInput{
+    
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+}
+#searchContainer{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid salmon; */
+    height: 15vh;
+    /* margin-left: 8%; */
+}
+#SearchTimeZone{
+    display: flex;
+    position:relative;
+    top:0;
+}
+#boxx{
+    display: flex;
+    overflow: scroll;
+    height: 12vh; 
+    color: azure;
+    display: none;
+}
+#boxx::-webkit-scrollbar {
+    display: none;
+  }
+  #EditBtn{
+        border: none;
+        background: none;
+        color: aqua!important;
+  }
+
+  #newCl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* margin-right:20px; */
+  }
+ body{
+    background-color: rgb(0, 0, 0)!important;
+ }
+.h1{
+    font-size: 3rem!important;
+    font-weight: bold!important;
+    text-shadow: 2px  4px 1px gray!important;
+ }
